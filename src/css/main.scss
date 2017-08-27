@@ -1,0 +1,32 @@
+$background: #eee;
+
+body{
+  background: $background;
+  width: 1200px;
+  margin:20px auto;
+}
+
+p.title{
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  .box{
+    padding: 10px;
+    max-width: 530px;
+    flex: 1 1 40%;
+  }
+  textarea{
+    height: 600px;
+    font-size: 16px;
+    overflow: scroll;
+  }
+  #result{
+    min-height: 400px;
+
+  }
+}
